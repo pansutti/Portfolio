@@ -19,6 +19,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-color: rgb(146, 109, 109);
+}
+
 html {
   /* font-size: 62.5%; -- */
   overflow-x: hidden;
