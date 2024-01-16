@@ -43,7 +43,8 @@ function App() {
           <a
             className="relative inline-flex justify-center items-center w-[40px] h-[40px] bg-transparent border-solid rounded-[50%] text-[20px] z-1 overflow-hidden group"
             href="https://www.linkedin.com/in/luiz-gustavo-pansutti-torres/"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="absolute inset-0 bg-blue-500 transition-all transform scale-x-0 origin-left group-hover:scale-x-100"></span>
             <i className="relative z-10">
@@ -53,13 +54,19 @@ function App() {
           <a
             className="relative inline-flex justify-center items-center w-[40px] h-[40px] bg-transparent border-solid rounded-[50%] text-[20px] z-1 overflow-hidden group"
             href="https://github.com/pansutti"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="absolute inset-0 bg-blue-500 transition-all transform scale-x-0 origin-left group-hover:scale-x-100"></span>
             <i className="relative z-10">
               <FaGithub />
             </i>
           </a>
+        </div>
+        <div className="ml-auto">
+          <div>
+            <img className="object-cover w-[512px] h-[512px] rounded-[50%]" src="img/Photo1.jpg" alt="" />
+          </div>
         </div>
       </section>
     </>
