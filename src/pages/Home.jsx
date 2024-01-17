@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <section className="flex items-center min-h-full p-[9%] pt-[12%]">
+      <section className="flex items-center min-h-full p-[9%] pt-[30%] lg:pt-[12%]">
         <div className="max-w-[60rem]">
           <h1 className="text-[5.6rem] text-blue font-bold leading-[1.3]">
             Oi, eu sou o Pansutti
@@ -60,9 +60,9 @@ function App() {
             </i>
           </a>
         </div>
-        <div className="ml-auto">
+        <div className="ml-auto flex-col sm:flex-row">
           <div>
-            <img className="object-cover w-[512px] h-[512px] rounded-[50%]" src="img/Photo1.jpg" alt="" />
+            <img className="object-cover w-[512px] h-[512px] rounded-[50%] hidden xl:block" src="img/Photo1.jpg" alt="" />
           </div>
         </div>
       </section>
