@@ -11,7 +11,7 @@ export default {
     extend: {
       colors: {
         trueGray: colors.neutral,
-        yellow: "#FFD56F",
+        blue: "#0080ff",
         green: "#1D27",
       },
     },
