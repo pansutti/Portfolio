@@ -23,6 +23,9 @@ function App() {
             <a
               className="relative h-full bg-gray-300 inline-flex justify-center items-center w-[15rem] border-solid border-black border-2 rounded-xl text-2xl font-semibold z-1 overflow-hidden group hover:text-white"
               href="https://wa.me/5512974120790"
+              target="_blank"
+              rel="noreferrer"
+              
             >
               <span className="absolute inset-0 bg-blue transition-all transform scale-x-0 origin-left group-hover:scale-x-100"></span>
               <span className="relative z-10">Contato</span>
@@ -30,6 +33,8 @@ function App() {
             <a
               className="relative h-full bg-gray-300 inline-flex justify-center items-center w-[15rem] border-solid border-black border-2 rounded-xl text-2xl font-semibold z-1 overflow-hidden group hover:text-white"
               href="https://docs.google.com/document/d/1O5Z7u_hwnDkD6rItiDm77_1-IGNSnnRvsOaJhv4dWIY/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               <span className="absolute inset-0 bg-blue transition-all transform scale-x-0 origin-left group-hover:scale-x-100 "></span>
               <span className="relative z-10 ">Meu CV</span>
